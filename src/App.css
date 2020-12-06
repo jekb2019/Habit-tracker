@@ -8,6 +8,7 @@ button {
   background-color: #FFE7C7;
   margin: 0;
   height: 100px;
+  padding-left: 40px;
 }
 .navbar-title {
   line-height: 2.5;
@@ -20,13 +21,15 @@ button {
   color: green;
 }
 .navbar-count {
-  color: white;
-  background-color: green;
-  border-radius: 0%;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
   width: 2.5rem;
   height: 2.5rem;
-  font-size: 2.5rem;
-  text-align: center;
+  margin-left: 0.2em;
+  border-radius: 50%;
+  color: white;
+  background-color: green;
 }
 /* Form */
 .form {
@@ -34,7 +37,7 @@ button {
   display: flex;
   padding-left: 40px;
 }
-.form-input {
+.add-input {
   width: 350px;
   height: 40px;
   font-size: 2rem;
